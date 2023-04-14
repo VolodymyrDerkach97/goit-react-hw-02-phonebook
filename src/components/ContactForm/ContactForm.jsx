@@ -49,6 +49,7 @@ class ContactForm extends Component {
         <InputWraper>
           <label htmlFor={this.telInputId}>Number</label>
           <Input
+            mask="999-99-99"
             id={this.telInputId}
             type="tel"
             value={this.state.number}

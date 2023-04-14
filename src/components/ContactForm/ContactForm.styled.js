@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import InputMask from 'react-input-mask';
 
 export const Form = styled.form`
   border-bottom: 2px solid green;
@@ -12,7 +13,7 @@ export const InputWraper = styled.div`
   margin-top: 5px;
 `;
 
-export const Input = styled.input`
+export const Input = styled(InputMask)`
   border: 3px solid #549668;
 
   border-radius: 20px;
